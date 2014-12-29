@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather-instrument example</title>
+  </head>
+
+  <body>
+    <svg id="temp" style="width:200px;height:200px"></svg>
+    <svg id="barometer" style="width:200px;height:200px"></svg>
+    <svg id="humidity" style="width:200px;height:200px"></svg>
+    <svg id="windspeed" style="width:200px;height:200px"></svg>
+    <script src="../bower_components/snap.svg/dist/snap.svg-min.js"></script>
+    <script src="../weather-instruments.js"></script>
+    <script type="text/javascript">
+        var barometer = new wi.Instrument("#barometer",200,200,960,1060,"hPa", 998);
+        var temp =      new wi.Instrument("#temp"     ,200,200,-40,40,"°C"   ,   5);
+        var humidity =  new wi.Instrument("#humidity" ,200,200,0,100,"% rel.", 89);
+        var windspeed = new wi.Instrument("#windspeed",200,200,0,120,"km/h"  , 21);
+    </script>
+  </body>
+</html>
+
+
