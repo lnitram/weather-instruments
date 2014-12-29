@@ -3,6 +3,12 @@ weather-instruments
 
 Simple javascript svg-based weather instruments built on top of snap.svg
 
+Download
+----
+Check the Release-page for the latest version: https://github.com/lnitram/weather-instruments/releases or download
+or download the minimized js-file directly at:
+https://github.com/lnitram/weather-instruments/releases/download/v0.0.0.0/weather-instruments.min.js
+
 Build
 ----
 
